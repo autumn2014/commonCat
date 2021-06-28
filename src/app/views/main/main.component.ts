@@ -9,6 +9,10 @@ import{Hero} from '../../data/hero'
 })
 export class MainComponent implements OnInit {
 
+  /**
+   * 引用服务
+   * @param cartService 
+   */
   constructor(private cartService:CartServiceService) {}
   hero:Hero={id:100,name:'raoxiaokang'};
   person:Person[]=[{id:200,name:'rxk',addr:'wuhan'},

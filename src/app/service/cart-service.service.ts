@@ -5,6 +5,9 @@ import { HEROES } from '../data/hero-mock';
   providedIn: 'root'
 })
 export class CartServiceService {
+  /*
+  服务
+  */
   item=[]
   constructor() { }
   getItems(){
